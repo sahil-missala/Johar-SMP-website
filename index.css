@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&family=Silkscreen:wght@400;700&display=swap');
+
+
+
+
+.camimg {
+    height: 20px;
+    padding-bottom: 3px;
+    filter: invert(100%);
+}
+
+.navlogo {
+    height: 40px;
+}
+
+.bglight {
+    background-color: #262423 !important;
+}
+
+nav {
+    font-family: "Montserrat", "Poppins", sans-serif;
+    font-weight: 500;        
+    text-transform: uppercase;
+    letter-spacing: 0.1em;    
+    font-size: 0.9rem;        
+    color: #fff;              
+}
+
+.navbar .nav-link:hover {
+  color: #85c341 !important;
+}
+
+.bg {
+    background-color: #171615;
+    background: cover;
+    height: 100vh;
+    width: auto;
+
+}
+
+
+
+.main-head {
+    font-family: "Silkscreen";
+}
+
+.butto {
+    background-color: #3c8527;
+    border-color: #52a535;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+}
+
+.butto:hover {
+    background-color: #85c341;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.footlogo {
+    filter: grayscale(100%);
+    height: 40px;
+}
+
+.footcreds {
+    text-decoration: none;
+    color: grey;
+    font-style: italic;
+}
+
+.bglight2 {
+    background-color: #262423;
+    height: auto;
+}
+
+.foo {
+    color: #808080;
+}
+
+.dropdown-item:hover {
+    background-color: #808080 !important;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    font-family: "Montserrat", "Poppins", sans-serif !important;
+    text-transform: uppercase;
+}
+
+/* 🔧 1️⃣ Keep all carousels same height */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;       /* maintains perfect ratio across devices */
+  overflow: hidden;
+}
+
+/* 🖼️ 2️⃣ Ensure images always fit inside */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* crops edges but keeps proportions */
+  object-position: center;
+  display: block;
+}
+
+.status-box {
+  background-color: #262423;
+  border: 1px solid #85c341;
+  padding: 15px 20px;
+  color: #d3d3d3;
+  width: fit-content;
+  margin-bottom: 40px;
+  font-family: "Press Start 2P", monospace;
+  box-shadow: 0 0 10px 2px rgba(0, 255, 100, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.status-box:hover {
+  box-shadow: 0 0 15px rgba(0, 255, 100, 0.4);
+  border: 1px solid #0f0;
+}
+
+.status-box h3 {
+  font-size: 14px;
+  color: #9cffb4; /* greenish header */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.status-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  position: relative;
+  top: 1px;
+}
+
+.status-icon.online {
+  background-color: #00ff66;
+  box-shadow: 0 0 6px #00ff66;
+}
+
+.status-icon.offline {
+  background-color: #ff4444;
+  box-shadow: 0 0 6px #ff4444;
+}
+
+#players {
+  color: #888;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.newsbox {
+  border: 1px solid #85c341 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.newsbox:hover {
+  box-shadow: 0 0 15px rgba(0, 255, 100, 0.4);
+  border: 1px solid #0f0; 
+  transition: all 0.2s ease-in-out;
+}
+
+html, body {
+     overflow-x: hidden;
+}
